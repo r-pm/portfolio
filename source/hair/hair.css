@@ -3,7 +3,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url(/source/hair/mainbackgroundimg.png);
+  background-image: url("./mainbackgroundimg.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* how do i know when to do vh vs %? */
@@ -27,7 +27,7 @@ aside {
     max-height: 186px;
     grid-column: 1/-1;
     grid-row: 1/2;
-    background-image: url(/source/hair/bettylogo.png);
+    background-image: url("./bettylogo.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
