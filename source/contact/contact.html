@@ -3,26 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="/source/reset.css">
   <link rel="stylesheet" href="contact.css">
   <title>Contact</title>
+  <script src="https://kit.fontawesome.com/f6f7a6c522.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="ohHey">
-    <canvas>clock</canvas><textarea name="Oh.Hey" id="Oh.Heytext" cols="60" rows="3">OH. HEY, DROP ME A LINE</textarea>
-
+    <canvas>clock</canvas>
+    <!-- will insert a functioning clock showing my local time -->
+    <p>OH, HEY.<br>
+      DROP ME A LINE<br>
+      <address>rociopenamartinez@gmail.com</address>
+    </p>
   </div>
 
   <nav class="navProjectContact">
+    <div class="navProjectContact">Project</div>  
+    <div class="navProjectContact">Contact</div>
     <!-- will slide down to contact form -->
   </nav>
 
-  <div class="lookMeUp">
+  <div class="lookMeUp">OR LOOK ME UP <br>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
   </div>
 
-  <footer class="footerContactForm">
-  <!-- will have grid to place form items -->
-  </footer>
+  <form class="formContact">
+    <p>HEY ROCIO,</p>
+    <label for="name">
+      It's me, <input type="text" id="name" name="user_name" required>
+    </label> 
+    <label for="project">
+      I'm interested in 
+      <textarea type="text" id="project" name="project_details" required> Please be detailed in describing your project needs ...
+      </textarea>
+    </label>
+    <label for="email">
+      Get back at me at this email<input type="text" id="email" name="user_email" required>
+    </label>  
+    <input type="submit" value="Send!"> 
+  </form>
+
 </body>
 </html>
