@@ -56,6 +56,10 @@ a {
     font-weight: 200;
   }
 
+#about-text {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .navportfolio {
     grid-area: 1/2/-1/-1;
