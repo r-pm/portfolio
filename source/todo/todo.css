@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline|Open+Sans&display=swap');
+
 body {
   background-color: #ddedfd;
   font-family: 'Helvetica', 'Arial', sans-serif;
@@ -5,12 +7,17 @@ body {
 
 #list_section {
   text-align: center;
+  text-shadow: slategray;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 h1 {
+  font-family: 'Londrina Outline', cursive;
   color: white;
   margin: 0px auto;
   padding: 20px;
+  font-size: 55px;
 }
 
 ul {
@@ -67,5 +74,5 @@ input[type='submit'] {
 
 #itemField {
   margin-top: 60px;
-  width: 10%;
+  width: 19%;
 }
